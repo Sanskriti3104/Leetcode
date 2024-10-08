@@ -14,6 +14,7 @@ It has solution of leetcode questions / example problem.
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Math
@@ -27,6 +28,7 @@ It has solution of leetcode questions / example problem.
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 ## Divide and Conquer
 |  |
@@ -36,4 +38,8 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
