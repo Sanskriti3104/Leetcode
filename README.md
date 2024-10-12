@@ -32,6 +32,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Divide and Conquer
 |  |
 | ------- |
