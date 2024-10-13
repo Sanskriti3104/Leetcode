@@ -17,6 +17,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0908-middle-of-the-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Math
@@ -31,6 +32,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Divide and Conquer
