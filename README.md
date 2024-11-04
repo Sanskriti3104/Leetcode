@@ -37,6 +37,7 @@ It has solution of leetcode questions / example problem.
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Sanskriti3104/Leetcode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Divide and Conquer
 |  |
@@ -56,4 +57,5 @@ It has solution of leetcode questions / example problem.
 | [0033-search-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Sanskriti3104/Leetcode/tree/master/0035-search-insert-position) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
