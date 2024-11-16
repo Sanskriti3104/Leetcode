@@ -8,6 +8,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0206-reverse-linked-list) |
@@ -22,6 +23,7 @@ It has solution of leetcode questions / example problem.
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0061-rotate-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
