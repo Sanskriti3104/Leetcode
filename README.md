@@ -49,6 +49,7 @@ It has solution of leetcode questions / example problem.
 | [0035-search-insert-position](https://github.com/Sanskriti3104/Leetcode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -104,4 +105,12 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
