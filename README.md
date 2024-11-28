@@ -26,6 +26,7 @@ It has solution of leetcode questions / example problem.
 | [0061-rotate-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
+| [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -34,6 +35,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 ## Recursion
 |  |
 | ------- |
@@ -59,6 +61,7 @@ It has solution of leetcode questions / example problem.
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
