@@ -36,6 +36,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 ## Recursion
@@ -55,6 +56,7 @@ It has solution of leetcode questions / example problem.
 | [0035-search-insert-position](https://github.com/Sanskriti3104/Leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -122,6 +124,7 @@ It has solution of leetcode questions / example problem.
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
