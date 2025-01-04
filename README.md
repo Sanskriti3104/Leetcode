@@ -39,6 +39,7 @@ It has solution of leetcode questions / example problem.
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
+| [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
 ## Recursion
 |  |
 | ------- |
@@ -46,6 +47,7 @@ It has solution of leetcode questions / example problem.
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
 ## Array
 |  |
 | ------- |
