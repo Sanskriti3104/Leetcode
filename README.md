@@ -126,6 +126,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Matrix
 |  |
 | ------- |
@@ -157,4 +158,5 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
