@@ -87,6 +87,7 @@ It has solution of leetcode questions / example problem.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Greedy
@@ -138,6 +139,7 @@ It has solution of leetcode questions / example problem.
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
@@ -157,6 +159,7 @@ It has solution of leetcode questions / example problem.
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
