@@ -72,6 +72,7 @@ It has solution of leetcode questions / example problem.
 | [0128-longest-consecutive-sequence](https://github.com/Sanskriti3104/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -85,6 +86,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Dynamic Programming
 |  |
@@ -117,11 +119,13 @@ It has solution of leetcode questions / example problem.
 | [0073-set-matrix-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Sanskriti3104/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Sanskriti3104/Leetcode/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 ## Merge Sort
 |  |
 | ------- |
@@ -166,4 +170,8 @@ It has solution of leetcode questions / example problem.
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
