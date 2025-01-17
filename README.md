@@ -153,6 +153,7 @@ It has solution of leetcode questions / example problem.
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
+| [0052-n-queens-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 ## Bit Manipulation
