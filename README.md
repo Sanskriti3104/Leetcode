@@ -37,6 +37,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/Sanskriti3104/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
@@ -122,6 +123,7 @@ It has solution of leetcode questions / example problem.
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Sanskriti3104/Leetcode/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Sanskriti3104/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
@@ -175,6 +177,7 @@ It has solution of leetcode questions / example problem.
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Sanskriti3104/Leetcode/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
