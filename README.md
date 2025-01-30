@@ -167,6 +167,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/Sanskriti3104/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Simulation
 |  |
 | ------- |
