@@ -42,6 +42,7 @@ It has solution of leetcode questions / example problem.
 | [0013-roman-to-integer](https://github.com/Sanskriti3104/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sanskriti3104/Leetcode/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
@@ -103,6 +104,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sanskriti3104/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Greedy
@@ -210,4 +212,8 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Sanskriti3104/Leetcode/tree/master/0014-longest-common-prefix) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
