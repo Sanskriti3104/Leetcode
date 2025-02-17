@@ -152,6 +152,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Matrix
@@ -218,4 +219,8 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
