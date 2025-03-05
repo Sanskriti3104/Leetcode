@@ -47,6 +47,7 @@ It has solution of leetcode questions / example problem.
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
+| [2649-count-total-number-of-colored-cells](https://github.com/Sanskriti3104/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 ## Recursion
 |  |
 | ------- |
