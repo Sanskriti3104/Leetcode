@@ -257,4 +257,8 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Sanskriti3104/Leetcode/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
