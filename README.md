@@ -261,4 +261,5 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/Sanskriti3104/Leetcode/tree/master/0176-second-highest-salary) |
+| [0182-duplicate-emails](https://github.com/Sanskriti3104/Leetcode/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
