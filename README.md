@@ -73,6 +73,7 @@ It has solution of leetcode questions / example problem.
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sanskriti3104/Leetcode/tree/master/0075-sort-colors) |
@@ -115,6 +116,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sanskriti3104/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -122,6 +124,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
