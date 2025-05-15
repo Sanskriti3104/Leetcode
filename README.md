@@ -91,6 +91,7 @@ It has solution of leetcode questions / example problem.
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -122,6 +123,7 @@ It has solution of leetcode questions / example problem.
 | [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sanskriti3104/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Greedy
 |  |
 | ------- |
@@ -129,6 +131,7 @@ It has solution of leetcode questions / example problem.
 | [0045-jump-game-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
 ## Binary Search
@@ -168,6 +171,7 @@ It has solution of leetcode questions / example problem.
 | [0088-merge-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
+| [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 ## Merge Sort
