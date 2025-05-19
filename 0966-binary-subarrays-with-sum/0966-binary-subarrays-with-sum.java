@@ -1,25 +1,25 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
+    public static int atmost(int[] nums, int goal){
+        if(goal < 0)    return 0;
+
         int left =0;
         int right =0;
         int count =0;
         int sum=0;
 
-        while(left < nums.length){
-            while(right<nums.length){
-                sum = sum + nums[right];
-                if(sum == goal){
-                    count++;
-                }else if(sum>goal){
-                    break;
-                }
-                right++;
+        while(right < nums.length){
+            sum += nums[right];
+            while(sum > goal){
+                sum -= nums[left];
+                left++;
             }
-            sum = 0;
-            left++;
-            right = left;
+            count += right - left + 1;
+            right++;
         }
 
         return count;
+    }
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        return atmost(nums,goal) - atmost(nums,goal - 1);
     }
 }
