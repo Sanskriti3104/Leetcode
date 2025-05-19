@@ -103,6 +103,7 @@ It has solution of leetcode questions / example problem.
 | [0735-asteroid-collision](https://github.com/Sanskriti3104/Leetcode/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sanskriti3104/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -166,6 +167,7 @@ It has solution of leetcode questions / example problem.
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 ## Sorting
 |  |
@@ -277,10 +279,12 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sanskriti3104/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Database
 |  |
