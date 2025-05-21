@@ -1,42 +1,36 @@
 class Solution {
-    // Convert stack to array
-    public int[] convertToArray(Stack<Integer> s) {
-        return s.stream().mapToInt(Integer::intValue).toArray();
-    }
-
-    // Check if two asteroids have the same sign
-    public boolean sameSign(int top, int[] asteroids, int idx) {
-        return (top > 0 && asteroids[idx] > 0) || (top < 0 && asteroids[idx] < 0);
-    }
-
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> s = new Stack<>();
+        Stack<Integer> st = new Stack<>();
 
-        for (int i = 0; i < asteroids.length; i++) {
-            int current = asteroids[i];
-
-            // Handle asteroid collisions
-            while (!s.isEmpty() && s.peek() > 0 && current < 0) {
-                int top = s.peek();
-
-                if (Math.abs(top) < Math.abs(current)) {
-                    s.pop(); // Top asteroid is destroyed, continue checking
-                } else if (Math.abs(top) == Math.abs(current)) {
-                    s.pop(); // Both are destroyed
-                    current = 0; // Mark current as destroyed
-                    break;
-                } else {
-                    current = 0; // Current asteroid is destroyed
-                    break;
+        for(int i=0; i<asteroids.length; i++){
+            if(st.isEmpty()){
+                st.push(asteroids[i]);
+            }else{
+                if(st.peek() > 0 && asteroids[i] < 0){
+                    while(!st.isEmpty() && st.peek() > 0){
+                        if(st.peek() > -1*asteroids[i]){
+                            break;
+                        }else if(st.peek() == -1*asteroids[i]){
+                            st.pop();
+                            break;
+                        }else{
+                            st.pop();
+                            if (st.isEmpty() || st.peek() < 0) {
+                                st.push(asteroids[i]);
+                            }
+                        }
+                    }
+                }else{
+                    st.push(asteroids[i]);
                 }
             }
-
-            // Push asteroid if it wasn't destroyed
-            if (current != 0) {
-                s.push(current);
-            }
+        }
+        
+        int result[] = new int[st.size()];
+        for(int i=st.size()-1; i>=0; i--){
+            result[i] = st.pop();
         }
 
-        return convertToArray(s);
+        return result;
     }
 }
