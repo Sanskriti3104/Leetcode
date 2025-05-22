@@ -189,6 +189,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/Sanskriti3104/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -269,6 +270,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/Sanskriti3104/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -299,4 +301,8 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Sanskriti3104/Leetcode/tree/master/0204-count-primes) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Sanskriti3104/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
