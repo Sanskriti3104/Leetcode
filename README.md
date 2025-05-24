@@ -25,6 +25,7 @@ It has solution of leetcode questions / example problem.
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Sanskriti3104/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Sanskriti3104/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -71,6 +72,7 @@ It has solution of leetcode questions / example problem.
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Sanskriti3104/Leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
@@ -122,6 +124,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
@@ -188,6 +191,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/Sanskriti3104/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
@@ -274,6 +278,7 @@ It has solution of leetcode questions / example problem.
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0503-next-greater-element-ii) |
