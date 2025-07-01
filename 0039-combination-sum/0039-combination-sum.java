@@ -1,28 +1,23 @@
 class Solution {
-    public void findCombinationSum(int[] candidates, int target, int i, List<List<Integer>> result, List<Integer> currentCombinationSum){
-        //base case
+    static void findCombination(int i,int[] candidates,int target,List<List<Integer>> result, List<Integer> combination){
         if(i == candidates.length || target == 0){
             if(target == 0){
-                result.add(new ArrayList<>(currentCombinationSum));
-                /*The constructor new ArrayList<>(currentCombinationSum) ensures that
-                changes to the original currentCombinationSum list 
-                do not affect the version stored in result.*/
+                result.add(new ArrayList<>(combination));
             }
             return;
         }
 
-        //recursion 
         if(candidates[i] <= target){
-            currentCombinationSum.add(candidates[i]);
-            findCombinationSum(candidates,target - candidates[i],i,result,currentCombinationSum);
-            currentCombinationSum.remove(currentCombinationSum.size() - 1);
+            combination.add(candidates[i]);
+            findCombination(i, candidates, target-candidates[i], result,combination);
+            combination.remove(combination.size() - 1);
         }
-        findCombinationSum(candidates,target,i+1,result,currentCombinationSum);
-    }
 
+        findCombination(i+1, candidates, target, result,combination);        
+    }
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> result = new ArrayList<>();
-        findCombinationSum(candidates,target,0,result,new ArrayList<>());
+        List < List < Integer >> result = new ArrayList < > ();
+        findCombination(0, candidates, target, result, new ArrayList < > ());
         return result;
     }
 }
