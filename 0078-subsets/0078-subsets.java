@@ -1,28 +1,19 @@
 class Solution {
-    public void findSubset(int nums[],int i,List<Integer> currentSubset, List<List<Integer>> result){
-        //base case
+    static void findSubset(int i,int[] nums,List<List<Integer>> result,List<Integer> subset){
         if(i == nums.length){
-            result.add(new ArrayList<>(currentSubset));
-            /*Why Not Add currentSubset Directly?
-If we added currentSubset directly to result without new, result would reference the same currentSubset object in memory. As a result, any changes to currentSubset would reflect across all instances in result, which would lead to incorrect subsets. The new keyword ensures that each subset stored in result is an independent object with a unique state at the time it was added.*/
+            result.add(new ArrayList<>(subset));
             return;
         }
-        //recursion
-        //include current element
-        currentSubset.add(nums[i]);
-        findSubset(nums,i+1,currentSubset,result);
 
-        //exclude current element
-        currentSubset.remove(currentSubset.size() - 1);
-        findSubset(nums,i+1,currentSubset,result);
+        subset.add(nums[i]);
+        findSubset(i+1, nums, result, subset);
+        subset.remove(subset.size() -1);
+        findSubset(i+1, nums, result, subset);
+
     }
-
     public List<List<Integer>> subsets(int[] nums) {
-        //result to store the power set
         List<List<Integer>> result = new ArrayList<>();
-
-        findSubset(nums,0,new ArrayList<>(),result);
-
+        findSubset(0, nums, result, new ArrayList<>());
         return result;
     }
 }
