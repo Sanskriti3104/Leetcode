@@ -17,6 +17,7 @@ class Solution {
     }
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List < List < Integer >> result = new ArrayList < > ();
+        Arrays.sort(candidates);
         findCombination(0, candidates, target, result, new ArrayList < > ());
         return result;
     }
