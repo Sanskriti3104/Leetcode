@@ -1,21 +1,21 @@
-class Solution {
-    static void findSubset(int i,boolean prevTaken, int[] nums,List<List<Integer>> result,List<Integer> subset){
-        if(i == nums.length){
-            result.add(new ArrayList<>(subset));
-            return;
-        }
+import java.util.*;
 
-        if(i == 0  || nums[i] != nums[i-1] || prevTaken){
+class Solution {
+    static void findSubset(int idx, int[] nums, List<List<Integer>> result, List<Integer> subset) {
+        result.add(new ArrayList<>(subset)); // Add the current subset (including empty)
+
+        for (int i = idx; i < nums.length; i++) {
+            if (i > idx && nums[i] == nums[i - 1]) continue; // Skip duplicates
             subset.add(nums[i]);
-            findSubset(i+1, true, nums, result, subset);
-            subset.remove(subset.size() -1);
+            findSubset(i + 1, nums, result, subset);
+            subset.remove(subset.size() - 1); // Backtrack
         }
-        findSubset(i+1, false, nums, result, subset);
     }
+
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums);
-        findSubset(0,false, nums, result, new ArrayList<>());
+        Arrays.sort(nums); // Sort to handle duplicates
+        findSubset(0, nums, result, new ArrayList<>());
         return result;
     }
 }
