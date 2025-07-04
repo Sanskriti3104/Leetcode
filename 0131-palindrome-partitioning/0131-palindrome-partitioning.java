@@ -25,8 +25,6 @@ class Solution {
         }
 
         for(int i=idx; i<s.length(); i++){
-        //StringBuilder temp = new StringBuilder();
-        //temp.append(s.substring(idx, i+1));
             if(isPalindrome(s.substring(idx, i+1))){
                 substring.add(s.substring(idx, i+1));
                 findPartition(i+1,s,result,substring);
