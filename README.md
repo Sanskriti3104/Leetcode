@@ -133,6 +133,7 @@ It has solution of leetcode questions / example problem.
 | [0070-climbing-stairs](https://github.com/Sanskriti3104/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sanskriti3104/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sanskriti3104/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Greedy
 |  |
@@ -225,6 +226,7 @@ It has solution of leetcode questions / example problem.
 | [0052-n-queens-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 ## Bit Manipulation
 |  |
@@ -255,6 +257,7 @@ It has solution of leetcode questions / example problem.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
