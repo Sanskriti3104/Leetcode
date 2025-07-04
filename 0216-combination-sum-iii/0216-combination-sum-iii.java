@@ -1,27 +1,24 @@
 class Solution {
-    public void findCombination(int range,int k,int n,List<Integer> currentCombination,List<List<Integer>> result){
-
-        if(range > 9 ||( n == 0 && currentCombination.size() == k)){
-            if(n == 0 && currentCombination.size() == k){
-                result.add(new ArrayList <> (currentCombination));
+    static void findCombinations(int idx,int k,int n,List<List<Integer>> result,List<Integer> combination){
+        if(k == 0 ){
+            if(n == 0){
+                result.add(new ArrayList<>(combination));
             }
             return;
         }
 
-        for(int i = range; i<= 9; i++){
-            if( i > n )  break;
-            //if( count == k )    break;
-
-            currentCombination.add(i);
-            findCombination(i+1,k,n-i,currentCombination,result);
-            currentCombination.remove(currentCombination.size() - 1);
+        for(int i=idx; i<10; i++){
+            if(i <= n){
+                combination.add(i);
+                findCombinations(i+1,k-1,n-i,result,combination);
+                combination.remove(combination.size()-1);
+            }
         }
-
+    
     }
-
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
-        findCombination(1,k,n,new ArrayList<>(),result);
+        findCombinations(1,k,n,result,new ArrayList<>());
         return result;
     }
 }
