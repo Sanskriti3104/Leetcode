@@ -77,6 +77,7 @@ It has solution of leetcode questions / example problem.
 | [0045-jump-game-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Sanskriti3104/Leetcode/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/Sanskriti3104/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Sanskriti3104/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Sanskriti3104/Leetcode/tree/master/0055-jump-game) |
@@ -223,6 +224,7 @@ It has solution of leetcode questions / example problem.
 | [0039-combination-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Sanskriti3104/Leetcode/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/Sanskriti3104/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0090-subsets-ii) |
