@@ -86,6 +86,7 @@ It has solution of leetcode questions / example problem.
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sanskriti3104/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0090-subsets-ii) |
@@ -215,6 +216,7 @@ It has solution of leetcode questions / example problem.
 | [0054-spiral-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Sanskriti3104/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Backtracking
 |  |
@@ -227,6 +229,7 @@ It has solution of leetcode questions / example problem.
 | [0051-n-queens](https://github.com/Sanskriti3104/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -259,6 +262,7 @@ It has solution of leetcode questions / example problem.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
@@ -354,6 +358,7 @@ It has solution of leetcode questions / example problem.
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0110-balanced-binary-tree) |
