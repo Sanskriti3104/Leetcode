@@ -22,8 +22,26 @@ class Solution {
         return top || bottom || left || right;
     }
     public boolean exist(char[][] board, String word) {
-        if (word.length() > board.length * board[0].length)
+
+        if(word.length() > board.length*board[0].length){
             return false;
+        }
+
+        int[] boardFreq = new int[128];
+        int[] wordFreq = new int[128];
+
+        for(char[] row : board){
+            for(char c : row){
+                boardFreq[c]++;
+            }
+        }
+
+        for(char c: word.toCharArray()){
+            wordFreq[c]++;
+            if(wordFreq[c] > boardFreq[c]){
+                return false;
+            }
+        }
 
         for(int i=0;i<board.length; i++){
             for(int j=0; j<board[0].length; j++){
