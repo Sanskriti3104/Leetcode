@@ -1,19 +1,26 @@
 class Solution {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        Set<String> wordSet = new HashSet<>(wordDict);
-        boolean[] dp = new boolean[s.length() + 1];
+    static boolean findWordBreak(int idx, String s, Set<String> wordSet,Boolean[] memo){
+        if(idx == s.length()){
+            return true;
+        }
 
-        dp[0] = true; // Empty string can always be formed
+        if(memo[idx] != null)   return memo[idx];
 
-        for (int i = 1; i <= s.length(); i++) {
-            for (int j = 0; j < i; j++) {
-                if (dp[j] && wordSet.contains(s.substring(j, i))) {
-                    dp[i] = true;
-                    break;
-                }
+        for(int i = idx+1; i<= s.length(); i++){
+            if(wordSet.contains(s.substring(idx,i))){
+                if(findWordBreak(i,s,wordSet,memo)){
+                    memo[idx] = true;
+                    return true;
+                }     
             }
         }
 
-        return dp[s.length()];
+        memo[idx] = false;
+        return false;
+    }
+    public boolean wordBreak(String s, List<String> wordDict) {
+        Set<String> wordSet = new HashSet<>(wordDict);
+        Boolean memo[] = new Boolean[s.length()];
+        return findWordBreak(0,s,wordSet,memo);
     }
 }
