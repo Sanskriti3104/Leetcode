@@ -14,30 +14,17 @@
  * }
  */
 class Solution {
+    static boolean isTreeSymmetric(TreeNode temp1,TreeNode temp2){
+        if(temp1 == null && temp2 == null)  return true;
+        if(temp1 == null || temp2 == null)  return false;
+        if(temp1.val != temp2.val)  return false;
+
+        return isTreeSymmetric(temp1.left,temp2.right) && isTreeSymmetric(temp1.right,temp2.left);
+    }
     public boolean isSymmetric(TreeNode root) {
         if(root == null)    return true;
         if(root.left == null && root.right == null) return true;
 
-        Queue<TreeNode> queueL = new LinkedList<>();
-        Queue<TreeNode> queueR = new LinkedList<>();
-        queueL.offer(root.left);
-        queueR.offer(root.right);
-
-        while(!queueL.isEmpty() && !queueR.isEmpty()){
-            TreeNode temp1 = queueL.poll();
-            TreeNode temp2 = queueR.poll();
-
-            if(temp1 == null && temp2 == null)  continue;
-            if(temp1 == null || temp2 == null)  return false;
-
-            if(temp1.val != temp2.val)  return false;
-
-            queueL.offer(temp1.left);
-            queueR.offer(temp2.right);
-            queueL.offer(temp1.right);
-            queueR.offer(temp2.left);
-        }
-
-        return true;
+        return isTreeSymmetric(root.left,root.right);
     }
 }
