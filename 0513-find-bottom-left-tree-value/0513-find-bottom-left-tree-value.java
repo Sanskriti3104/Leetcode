@@ -14,19 +14,25 @@
  * }
  */
 class Solution {
-    static void findLeftValue(TreeNode root, int level, List<Integer> result) {
+    static void findLeftValue(TreeNode root, int level,int[] maxDepth,int[] leftValue) {
         if (root == null) return;
 
-        if (level == result.size()) {
-            result.add(root.val); // first node at this level
+        if (level > maxDepth[0]) {
+            leftValue[0] = root.val;
+            maxDepth[0] = level;
         }
 
-        findLeftValue(root.left, level + 1, result);   // left first
-        findLeftValue(root.right, level + 1, result);
+        findLeftValue(root.left, level + 1,maxDepth,leftValue);   
+        findLeftValue(root.right, level + 1,maxDepth,leftValue);
+
+        return;
     }
     public int findBottomLeftValue(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        findLeftValue(root, 0, result);
-        return result.get(result.size() - 1); 
+        if(root.left == null && root.right == null) return root.val;
+        
+        int[] leftValue = new int[1];
+        int[] maxDepth = new int[1];
+        findLeftValue(root, 0,maxDepth,leftValue);
+        return leftValue[0];
     }
 }
