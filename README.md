@@ -179,6 +179,7 @@ It has solution of leetcode questions / example problem.
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -357,6 +358,7 @@ It has solution of leetcode questions / example problem.
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -369,6 +371,7 @@ It has solution of leetcode questions / example problem.
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -387,6 +390,7 @@ It has solution of leetcode questions / example problem.
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
@@ -404,5 +408,6 @@ It has solution of leetcode questions / example problem.
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
