@@ -159,6 +159,7 @@ It has solution of leetcode questions / example problem.
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0162-find-peak-element) |
+| [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -247,6 +248,7 @@ It has solution of leetcode questions / example problem.
 | [0078-subsets](https://github.com/Sanskriti3104/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0137-single-number-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Sanskriti3104/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -354,6 +356,7 @@ It has solution of leetcode questions / example problem.
 | [0144-binary-tree-preorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -386,6 +389,7 @@ It has solution of leetcode questions / example problem.
 | [0144-binary-tree-preorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
