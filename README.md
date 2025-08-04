@@ -282,6 +282,7 @@ It has solution of leetcode questions / example problem.
 | [0131-palindrome-partitioning](https://github.com/Sanskriti3104/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Sanskriti3104/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -314,6 +315,7 @@ It has solution of leetcode questions / example problem.
 | ------- |
 | [0155-min-stack](https://github.com/Sanskriti3104/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/Sanskriti3104/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -366,6 +368,7 @@ It has solution of leetcode questions / example problem.
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -380,6 +383,7 @@ It has solution of leetcode questions / example problem.
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -401,6 +405,7 @@ It has solution of leetcode questions / example problem.
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -419,6 +424,7 @@ It has solution of leetcode questions / example problem.
 | [0145-binary-tree-postorder-traversal](https://github.com/Sanskriti3104/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sanskriti3104/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Sanskriti3104/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
