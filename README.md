@@ -34,6 +34,7 @@ It has solution of leetcode questions / example problem.
 | [0151-reverse-words-in-a-string](https://github.com/Sanskriti3104/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -104,6 +105,7 @@ It has solution of leetcode questions / example problem.
 | [0204-count-primes](https://github.com/Sanskriti3104/Leetcode/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
