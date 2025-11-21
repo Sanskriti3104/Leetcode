@@ -1,25 +1,23 @@
 class Solution {
-    public void Reverse(int[] arr, int start, int end) {
-        while (start < end) {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-            start++;
-            end--;
+    public void swap(int i, int j, int[] nums){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    public void reverse(int[] nums,int i,int j){
+        while(i<j){
+            swap(i,j,nums);
+            i++;
+            j--;
         }
     }
 
     public void rotate(int[] nums, int k) {
-        if (nums == null || nums.length == 0 || k <= 0) {
-            return;
-        }
-        k = k % nums.length; // Handle cases where k > nums.length
-
-        // Reverse first n-k elements
-        Reverse(nums, 0, nums.length - k - 1);
-        // Reverse last k elements
-        Reverse(nums, nums.length - k, nums.length - 1);
-        // Reverse whole array
-        Reverse(nums, 0, nums.length - 1);
+        k = k % nums.length;     
+        
+        reverse(nums,0,nums.length -1);
+        reverse(nums,0,k-1);
+        reverse(nums,k,nums.length-1);
     }
 }
