@@ -65,6 +65,7 @@ It has solution of leetcode questions / example problem.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Sanskriti3104/Leetcode/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -178,6 +179,7 @@ It has solution of leetcode questions / example problem.
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sanskriti3104/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/Sanskriti3104/Leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
