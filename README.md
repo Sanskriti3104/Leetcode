@@ -117,6 +117,7 @@ It has solution of leetcode questions / example problem.
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/Sanskriti3104/Leetcode/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -176,6 +177,7 @@ It has solution of leetcode questions / example problem.
 | [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0704-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
