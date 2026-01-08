@@ -1,37 +1,52 @@
 class Solution {
-    public void setRowZero(int i, int[][] matrix) {
-        for(int m=0; m<matrix[0].length; m++){
-            matrix[i][m] = 0;
-        }
-    }
-
-    public void setColZero(int j, int[][] matrix) {
-        for(int m=0; m<matrix.length; m++){
-            matrix[m][j] = 0;
-        }
-    }
-    
     public void setZeroes(int[][] matrix) {
-        int rows[] = new int[matrix.length];
-        int columns[] = new int[matrix[0].length];
+        int m = matrix.length; 
+        int n= matrix[0].length; 
 
-        for(int i=0; i<matrix.length; i++){
-            for(int j=0; j<matrix[0].length; j++){
+        boolean firstRow = false;
+        boolean firstCol = false;
+
+        //first row
+        for(int i=0; i<n; i++){
+            if(matrix[0][i] == 0)   firstRow = true;
+        }
+
+        //first column
+        for(int i=0; i<m; i++){
+            if(matrix[i][0] == 0)   firstCol = true;
+        }
+
+        //Traverse matrix
+        for(int i=1; i<m; i++){
+            for(int j=1; j<n; j++){
                 if(matrix[i][j] == 0){
-                    rows[i] = -1;
-                    columns[j] = -1;
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
                 }
             }
         }
 
-        for(int i=0; i<rows.length; i++){
-            if(rows[i] == -1)   setRowZero(i,matrix);
+        //Set zero 
+        for(int i=1; i<m; i++){ 
+            for(int j=1; j<n; j++){ 
+                if(matrix[i][0] == 0 || matrix[0][j] == 0){
+                    matrix[i][j] =0;
+                }
+            }
         }
 
-        for(int j=0; j<columns.length; j++){
-            if(columns[j] == -1)   setColZero(j,matrix);
+        // First Row 
+        if(firstRow){
+            for(int i=0; i<n; i++){
+                matrix[0][i] = 0;
+            }
         }
 
-        return;
+        // First Col
+        if(firstCol){
+            for(int i=0; i<m; i++){
+                matrix[i][0] = 0;
+            }
+        }
     }
 }
