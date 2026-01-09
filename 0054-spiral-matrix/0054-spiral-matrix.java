@@ -2,42 +2,41 @@ class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> spiral = new ArrayList<>();
 
-        int startRow = 0;
-        int startCol = 0;
-        int endRow = matrix.length - 1;
-        int endCol = matrix[0].length - 1;
+        int firstRow = 0;
+        int lastRow = matrix.length-1;
 
-        while(startRow <= endRow && startCol <= endCol){
-            //Top Row
-            for(int i= startCol; i<= endCol; i++){
-                spiral.add(matrix[startRow][i]);
-            }
+        int firstCol = 0;
+        int lastCol = matrix[0].length-1;
 
-            //Right column
-            for(int i=startRow + 1; i<=endRow; i++){
-                spiral.add(matrix[i][endCol]);
+        while(firstRow<=lastRow && firstCol<=lastCol){
+
+            // top row 
+            for(int i = firstCol; i<lastCol+1; i++){
+                spiral.add(matrix[firstRow][i]);
             }
-            
-            //Bottom Row
-            for(int i=endCol-1; i>=startCol; i--){
-                if (startRow == endRow) {
-                    break;
+            firstRow++;
+
+            // right column
+            for(int i = firstRow; i<lastRow+1; i++){
+                spiral.add(matrix[i][lastCol]);
+            }
+            lastCol--;
+
+            // bottom row(if exists)
+            if(firstRow <= lastRow){
+                for(int i=lastCol; i>=firstCol; i--){
+                    spiral.add(matrix[lastRow][i]);
                 }
-                spiral.add(matrix[endRow][i]);
-            }
-        
-            //Left Column
-            for(int i=endRow-1; i>startRow; i--){
-                if (startCol == endCol) {
-                    break;
-                }
-                spiral.add(matrix[i][startCol]);
+                lastRow--;
             }
 
-            startRow++;
-            startCol++;
-            endRow--;
-            endCol--;
+            // left column(if exists)
+            if(firstCol <= lastCol){
+                for(int i=lastRow; i>=firstRow; i--){
+                    spiral.add(matrix[i][firstCol]);
+                }
+                firstCol++;
+            }
         }
 
         return spiral;
