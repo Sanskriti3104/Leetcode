@@ -117,6 +117,7 @@ It has solution of leetcode questions / example problem.
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Sanskriti3104/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/Sanskriti3104/Leetcode/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
@@ -199,6 +200,7 @@ It has solution of leetcode questions / example problem.
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/Sanskriti3104/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -348,6 +350,7 @@ It has solution of leetcode questions / example problem.
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/Sanskriti3104/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Database
