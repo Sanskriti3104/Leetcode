@@ -109,6 +109,7 @@ It has solution of leetcode questions / example problem.
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Sanskriti3104/Leetcode/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
+| [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -198,6 +199,7 @@ It has solution of leetcode questions / example problem.
 | [0139-word-break](https://github.com/Sanskriti3104/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Sanskriti3104/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -214,6 +216,7 @@ It has solution of leetcode questions / example problem.
 | [0088-merge-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
@@ -308,6 +311,7 @@ It has solution of leetcode questions / example problem.
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 ## Heap (Priority Queue)
