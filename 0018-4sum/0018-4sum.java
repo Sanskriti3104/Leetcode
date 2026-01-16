@@ -1,39 +1,41 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        int n = nums.length;
+        if(n < 4)   return result;
 
-        List<List<Integer>> result = new ArrayList();
         Arrays.sort(nums);
 
-        for(int a=0; a<nums.length-2; a++){
+        for(int i=0; i<n-3; i++){
+            if(i != 0 && nums[i] == nums[i-1])  continue;
 
-            if(a>0 && nums[a] == nums[a-1])     continue;
-            for(int b =a+1; b<nums.length -1;b++){
+            for(int j = i+1; j<n-2; j++){
+                if(j != i+1 && nums[j] == nums[j-1])    continue;
 
-                if(b>a+1 && nums[b] == nums[b-1])     continue;
+                int left = j+1; 
+                int right = n-1; 
 
-                int c=b+1;
-                int d=nums.length -1;
+                while(left < right){
+                    long sum = (long)nums[i] + nums[j] + nums[left] + nums[right]; 
 
-                while(c<d){
+                    if(sum == target){
+                        result.add(Arrays.asList(
+                                nums[i],nums[j],nums[left],nums[right]
+                        ));
+                        left++;
+                        right--;
 
-                    long sum = (long)nums[a] + nums[b] + nums[c] + nums[d];
-                    if(sum < target){
-                        c++;
-                    }else if(sum > target){
-                        d--;
+                        //skip duplicates
+                        while(left<right && nums[left] == nums[left-1])  left++;
+                        while(left<right && nums[right] == nums[right+1])  right--;
+
+                    }else if(sum < target){
+                        left++;
                     }else{
-                        result.add(Arrays.asList(nums[a],nums[b],nums[c],nums[d]) );
-
-                        while(c<d && nums[c] == nums[c+1])  c++;
-                        while(c<d && nums[d] == nums[d-1])  d--;
-
-                        c++;
-                        d--;
+                        right--;
                     }
-
                 }
             }
-             
         }
 
         return result;
