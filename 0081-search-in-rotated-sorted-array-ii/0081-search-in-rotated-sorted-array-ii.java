@@ -1,43 +1,41 @@
 class Solution {
     public boolean search(int[] nums, int target) {
-        int low = 0;
-        int high = nums.length-1;
+        int left = 0;
+        int right = nums.length - 1;
 
-        boolean flag = false;
-        while (low<=high) {
-            int mid = (low + high)/2;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
 
-            //target is found
-            if (nums[mid] == target){
-                flag = true ;
-                break;
+            if (nums[mid] == target) {
+                return true;
             }
 
-            //if nums[low] = nums[mid] = nums[high]
-            if((nums[low] == nums[mid]) && (nums[mid] == nums[high])){
-                low = low + 1;
-                high = high - 1;
+            // Handle duplicates
+            if(nums[left] == nums[mid] && nums[right] == nums[mid]){
+                left++;
+                right--;
                 continue;
             }
 
-            //left part is sorted
-            if(nums[low] <= nums[mid]){
-                if((nums[low] <= target) && (target <= nums[mid]))
-                    high = mid - 1;
-                else
-                    low = mid + 1;
-
+            // Left half is sorted
+            if (nums[left] <= nums[mid]) {
+                if (target >= nums[left] && target < nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
             }
-
-            //right part is sorted
-            else{
-                if((nums[mid] <= target) && (target <= nums[high]))
-                    low = mid + 1;
-                else
-                    high = mid -1;
+            
+            // Right half is sorted
+            else {
+                if (target > nums[mid] && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
             }
         }
 
-        return flag;
+        return false;
     }
 }
