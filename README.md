@@ -127,6 +127,7 @@ It has solution of leetcode questions / example problem.
 | [0890-lemonade-change](https://github.com/Sanskriti3104/Leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0966-binary-subarrays-with-sum](https://github.com/Sanskriti3104/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Sanskriti3104/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -187,6 +188,7 @@ It has solution of leetcode questions / example problem.
 | [0704-binary-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Sanskriti3104/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Sanskriti3104/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
