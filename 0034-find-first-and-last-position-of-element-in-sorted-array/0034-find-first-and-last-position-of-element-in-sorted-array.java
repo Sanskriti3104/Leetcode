@@ -1,63 +1,54 @@
 class Solution {
-    public void findLeftRange(int[] nums, int left, int mid, int target, int[] result) {
-        int l = left;
-        int r = mid;
+    public int startingPoint(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length-1;
+        int ans = -1;
 
-        while(l <= r){
-            int m = l + (r - l)/2;
-
-            if(target == nums[m]){
-                result[0] = m;
-                r = m - 1;
-            }else if(target < nums[m]){
-                r = m - 1;
+        while(low <= high){
+            int mid = low+(high-low)/2;
+            
+            if(nums[mid] == target){
+                ans = mid;
+                high = mid-1;
+            }else if(target > nums[mid]){
+                low = mid+1;
             }else{
-                l = m + 1;
+                high = mid-1;
             }
         }
 
-        return;
+        return ans;
     }
 
-    public void findRightRange(int[] nums, int mid, int right, int target, int[] result) {
-        int l = mid;
-        int r = right;
+    public int endingPoint(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length-1;
+        int ans = -1;
 
-        while(l <= r){
-            int m = l + (r - l)/2;
-
-            if(target == nums[m]){
-                result[1] = m;
-                l = m + 1;
-            }else if(target < nums[m]){
-                r = m - 1;
+        while(low <= high){
+            int mid = low+(high-low)/2;
+            
+            if(nums[mid] == target){
+                ans = mid;
+                low = mid+1;
+            }else if(target < nums[mid]){
+                high = mid-1;
             }else{
-                l = m + 1;
+                low = mid+1;
             }
         }
 
-        return;
-    }
+        return ans;
+    }  
 
     public int[] searchRange(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        int result[] = {-1,-1};
+        int[] range = new int[2];
 
-        while(left <= right){
-            int mid = left + (right - left)/2;
-            
-            if(target == nums[mid]){
-                findLeftRange(nums,left,mid,target,result);
-                findRightRange(nums,mid,right,target,result);
-                break;
-            }else if(target < nums[mid]){
-                right = mid-1;
-            }else{
-                left = mid +1;
-            }
-        }
+        range[0] = startingPoint(nums,target);
 
-        return result;
+        if(range[0] == -1)  range[1] = -1;
+        else range[1] = endingPoint(nums,target);
+
+        return range;
     }
 }
