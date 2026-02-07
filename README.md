@@ -253,6 +253,7 @@ It has solution of leetcode questions / example problem.
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Sanskriti3104/Leetcode/tree/master/0735-asteroid-collision) |
+| [1021-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Matrix
 |  |
@@ -319,6 +320,7 @@ It has solution of leetcode questions / example problem.
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Sanskriti3104/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Sanskriti3104/Leetcode/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1021-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 ## Counting
 |  |
