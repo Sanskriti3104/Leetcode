@@ -135,6 +135,7 @@ It has solution of leetcode questions / example problem.
 | [1539-kth-missing-positive-number](https://github.com/Sanskriti3104/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sanskriti3104/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Sanskriti3104/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Sanskriti3104/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Sanskriti3104/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
