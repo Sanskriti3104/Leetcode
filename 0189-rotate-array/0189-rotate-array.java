@@ -1,23 +1,28 @@
 class Solution {
-    public void swap(int i, int j, int[] nums){
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
-
-    public void reverse(int[] nums,int i,int j){
-        while(i<j){
-            swap(i,j,nums);
-            i++;
-            j--;
+    // Reverse the elements between the given indices (inclusive)
+    public static void reverse( int[] array, int left, int right) {
+        while (left < right) {
+            int temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
+        
+            // Move pointers toward the center
+            left++;
+            right--;
         }
     }
 
     public void rotate(int[] nums, int k) {
-        k = k % nums.length;     
-        
-        reverse(nums,0,nums.length -1);
+        //Rotating by n positions results in the same array 
+        k = k % nums.length;
+
+        //Reverse the entire array 
+        reverse(nums,0,nums.length-1);
+        //Reverse the first k elements to restore their order 
         reverse(nums,0,k-1);
+        //Reverse the remaining elements to restore their order 
         reverse(nums,k,nums.length-1);
     }
 }
+//Time Complexity - O(N)
+//Space Complexity - O(1)
