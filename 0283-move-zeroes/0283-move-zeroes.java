@@ -1,24 +1,27 @@
 class Solution {
+    //Swap elements to restore in the required order
+    public static void swap( int[] array, int left, int right) {
+        int temp = array[left];
+        array[left] = array[right];
+        array[right] = temp;
+    }
+
     public void moveZeroes(int[] nums) {
-         int i=0;
+        //Two pointers
+        int left = 0;
+        int right = 0;
 
-        while(i<nums.length){
-            if(nums[i] == 0){
-                break;
+        while(right < nums.length){
+            //Process the next non-zero element 
+            if(nums[right] != 0){
+                //Swap only when the non-zero element is not already in place
+                if(left != right){
+                    swap(nums,left,right);
+                }left++;
             }
-            else i++;
-        }
-
-        for(int j=i+1; j<nums.length; j++){
-            if(nums[j] != 0){
-                nums[i] = nums[j];
-                i++;
-            }
-        }
-
-        while(i<nums.length){
-            nums[i] = 0;
-            i++;
+            right++;
         }
     }
 }
+//Time Complexity - O(N)
+//Space Complexity - O(1)
