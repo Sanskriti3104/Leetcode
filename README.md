@@ -53,6 +53,7 @@ It has solution of leetcode questions / example problem.
 | [0189-rotate-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Sanskriti3104/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Sanskriti3104/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 ## Recursion
@@ -113,6 +114,7 @@ It has solution of leetcode questions / example problem.
 | [0216-combination-sum-iii](https://github.com/Sanskriti3104/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Sanskriti3104/Leetcode/tree/master/0283-move-zeroes) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
@@ -188,6 +190,7 @@ It has solution of leetcode questions / example problem.
 | [0162-find-peak-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sanskriti3104/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Sanskriti3104/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Sanskriti3104/Leetcode/tree/master/0875-koko-eating-bananas) |
@@ -215,6 +218,7 @@ It has solution of leetcode questions / example problem.
 | [0141-linked-list-cycle](https://github.com/Sanskriti3104/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Sanskriti3104/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Sanskriti3104/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -233,6 +237,7 @@ It has solution of leetcode questions / example problem.
 | [0148-sort-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Sanskriti3104/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0229-majority-element-ii) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/Sanskriti3104/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Sanskriti3104/Leetcode/tree/master/0455-assign-cookies) |
@@ -294,6 +299,7 @@ It has solution of leetcode questions / example problem.
 | [0137-single-number-ii](https://github.com/Sanskriti3104/Leetcode/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Sanskriti3104/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Sanskriti3104/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Simulation
