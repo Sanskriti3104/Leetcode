@@ -140,6 +140,7 @@ It has solution of leetcode questions / example problem.
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Sanskriti3104/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sanskriti3104/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sanskriti3104/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Sanskriti3104/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Sanskriti3104/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sanskriti3104/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -332,6 +333,7 @@ It has solution of leetcode questions / example problem.
 | [0451-sort-characters-by-frequency](https://github.com/Sanskriti3104/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Sanskriti3104/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sanskriti3104/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Counting
 |  |
 | ------- |
