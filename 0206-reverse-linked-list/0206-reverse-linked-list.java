@@ -10,21 +10,19 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        //Base case: if the list is empty or has only one node, return it
-        if(head == null || head.next == null)
-            return head;
+        ListNode prev = null;
+        ListNode temp = head;
+        ListNode front = null;
 
-        //Recursive call to reverse the rest of the list, which will be the new head
-        ListNode newHead = reverseList(head.next);
+        while(temp != null){
+            front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
+        }
 
-        // Reversing the current link
-        ListNode front = head.next;
-        front.next = head;
-
-        // Set the current node's next to null to avoid cycle in the reversed list
-        head.next = null;
-
-         // Return the new head of the reversed list
-        return newHead;
+        return prev;
     }
 }
+//Time Complexity - O(N)
+//Space Complexity - O(1)
