@@ -10,26 +10,27 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        //calculating size
-        ListNode current = head;
-        int sz =0;
-        while(current != null){
-            sz++;
-            current = current.next;
+        // Dummy node handles the case where the head is removed
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode left = dummy;
+        ListNode right = dummy;
+
+        // Move right pointer n + 1 steps ahead
+        for (int i = 0; i <= n; i++) {
+            right = right.next;
         }
 
-        //if index of removing element = size of the linked list 
-        if(n == sz){
-            head = head.next;
-            return head;
+        // Maintain the gap until right reaches the end
+        while (right != null) {
+            left = left.next;
+            right = right.next;
         }
 
-        current = head;
-        //other cases
-        for(int i=1; i<sz-n; i++){
-            current = current.next;
-        }
-        current.next = current.next.next;
-        return head;
+        // Remove the nth node from the end
+        left.next = left.next.next;
+
+        return dummy.next;
     }
 }
