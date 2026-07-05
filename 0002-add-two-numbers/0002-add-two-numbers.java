@@ -8,38 +8,48 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
- //Add a node to the end of the linked list
 class Solution {
+    //Add node to the end of the list
+    public static ListNode addNode(ListNode tail, int data){
+        ListNode temp = new ListNode(data);
+        tail.next = temp;
+        tail = tail.next;
+        return tail;
+    }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        //Creating a new List to store the sum
-        ListNode sumList = new ListNode(0);
+        // Dummy node for constructing the result list
+        ListNode sumList = new ListNode();
+        ListNode tail = sumList; 
 
-        //Intializing pointers for sumList 
-        ListNode current = sumList;
+        int carry = 0;
+        int sum = 0;
 
-        //Carry variable to store carry
-        int carry =0;
+        while(l1 != null || l2 != null){
+            // Treat the missing node as 0 once a list is exhausted
+            int x = (l1 == null) ? 0 : l1.val;
+            int y = (l2 == null) ? 0 : l2.val;
 
-        //Loop till both lists are traversed or until carry is left 
-        while(l1 != null || l2 != null || carry != 0){
-            //val1 & val2 to store the data
-            int val1 = (l1 != null) ? l1.val : 0;
-            int val2 = (l2 != null) ? l2.val : 0;
+            sum = carry + x + y;
+            
+            // Compute carry and the current digit
+            carry = sum / 10;
+            sum = sum % 10;
 
-            //updating sum and carry
-            int sum = (val1 + val2 + carry)%10;
-            carry = (val1 + val2 + carry)/10;
+            //Add a new node at the tail
+            tail = addNode(tail,sum);
 
-            //making new node to store the sum and moving current pointer
-            current.next = new ListNode(sum);
-            current = current.next;
-
-            //Moving l1 and l2 pointer accordingly
-            if( l1 != null ) l1 = l1.next;
-            if( l2 != null ) l2 = l2.next;
-
+            if(l1 != null) l1 = l1.next;
+            if(l2 != null) l2 = l2.next;
         }
-        // Return the next of sumList since it's the start of the actual result
+
+        //If carry remains at the end 
+        if(carry != 0){
+            tail = addNode(tail,carry);
+        }
+
         return sumList.next;
     }
 }
+//Time Complexity: O(max(m, n))
+//Auxiliary Space: O(1)
+//Output Space: O(max(m, n))
