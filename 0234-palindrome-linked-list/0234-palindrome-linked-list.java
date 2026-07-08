@@ -5,48 +5,58 @@
  *     ListNode next;
  *     ListNode() {}
  *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     ListNode(int val, ListNode next) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
  * }
  */
+
 class Solution {
-    //Method to find mid of the linked list
-    public ListNode findMid(ListNode head) {
+
+    // Reverse a linked list and return the new head
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        return prev;
+    }
+
+    public boolean isPalindrome(ListNode head) {
+
+        if (head == null || head.next == null)
+            return true;
+
+        // Find the middle of the linked list
         ListNode slow = head;
         ListNode fast = head;
+
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        return slow;
-    }
 
-    //Method to reverse a linked list
-    public ListNode reverse(ListNode start) {
-        ListNode previous = null;
-        ListNode current = start;
-        ListNode after;
-        while (current != null) {
-            after = current.next;
-            current.next = previous;
-            previous = current;
-            current = after;
-        }
-        return previous;
-    }
+        // Reverse the second half
+        ListNode secondHalf = reverse(slow);
 
-    public boolean isPalindrome(ListNode head) {
-        ListNode mid = findMid(head);   // Find the middle of the list
-        ListNode temp2 = reverse(mid);      // Reverse the second half of the list
-        ListNode temp1 = head;
-        
-        // Compare nodes from the start and the reversed second half
-        while (temp2 != null) {
-            if (temp1.val != temp2.val) {   // If values don't match, it's not a palindrome
+        // Compare both halves
+        ListNode firstHalf = head;
+
+        while (secondHalf != null) {
+            if (firstHalf.val != secondHalf.val)
                 return false;
-            }
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+
+            firstHalf = firstHalf.next;
+            secondHalf = secondHalf.next;
         }
-        return true;    // If all nodes matched, it's a palindrome
+
+        return true;
     }
 }
