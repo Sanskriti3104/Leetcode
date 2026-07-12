@@ -10,30 +10,35 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head == null || head.next == null || k == 0)     return head;
+        if(head == null || head.next == null)   return head;
 
-        //calculating size
         ListNode temp = head;
-        int size = 1;
-        while(temp.next != null){
-            ++size;
+        ListNode tail = null;
+        int length = 0;
+
+        while(temp != null){
+            tail = temp;
             temp = temp.next;
+            length += 1;
         }
 
-        //link last node to first node
-        temp.next = head;
+        k = k%length;
+        if(k == 0)  return head;
 
-        //rotating length
-        k = k%size;
+        int newTailIndex = length - k - 1;
+        temp = head;
 
-        //get end of linked list
-        int end = size - k;
+        while(newTailIndex > 0){
+            temp= temp.next;
+            newTailIndex -= 1;
+        }
 
-        while(end--!=0) temp = temp.next;
-        //breaking last node link and pointing to NULL
-        head = temp.next;
-        temp.next = null;
+        tail.next = head;
+        ListNode newHead= temp.next;
+        temp.next= null;
         
-        return head;        
+        return newHead;        
     }
 }
+//Time Complexity: O(n)
+//Auxiliary Space: O(1)
