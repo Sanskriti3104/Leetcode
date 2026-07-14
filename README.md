@@ -64,6 +64,7 @@ It has solution of leetcode questions / example problem.
 | [0204-count-primes](https://github.com/Sanskriti3104/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Sanskriti3104/Leetcode/tree/master/0268-missing-number) |
+| [1922-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/1922-count-good-numbers) |
 | [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Sanskriti3104/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 ## Recursion
@@ -75,6 +76,7 @@ It has solution of leetcode questions / example problem.
 | [0206-reverse-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Sanskriti3104/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Sanskriti3104/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1922-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/1922-count-good-numbers) |
 | [2050-count-good-numbers](https://github.com/Sanskriti3104/Leetcode/tree/master/2050-count-good-numbers) |
 ## Array
 |  |
