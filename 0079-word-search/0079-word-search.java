@@ -1,59 +1,71 @@
 class Solution {
-    static boolean findIfExist(int idx,int i,int j,char[][] board,String word){
-        if(idx == word.length()){
+    public boolean exist(char[][] board, String word) {
+        boolean isExist = false;
+        //Find first letter
+        for(int i=0; i<board.length; i++){
+            for(int j=0; j<board[0].length; j++){
+                //Found first letter than check word exists or not
+                if(board[i][j] == word.charAt(0)){
+                    char c = board[i][j];
+                    board[i][j] = '#';
+                    isExist = checkExist(board,word,i,j,1);
+                    board[i][j] = c;
+                    //If the word exists return true(isExist)
+                    if(isExist) return isExist;
+                }
+            }
+        }
+        return isExist;
+    }
+
+    //Check whether the cell address is valid
+    private boolean isValidCell(char[][] matrix, int row, int col) {
+        return row >= 0 && row < matrix.length && col >= 0 && col < matrix[0].length;
+    }
+
+    //Check whether the word exists or not
+    private boolean checkExist(char[][] board, String word, int row, int col, int index){
+        //Base Case 
+        if(index == word.length()){
             return true;
         }
-        
-        if(i<0 || j<0 || i>=board.length || j>=board[0].length || board[i][j] != word.charAt(idx) || board[i][j] == '!'){
-            return false;
+
+        char ch = word.charAt(index);
+
+        boolean up = false;
+        boolean down = false;
+        boolean left = false;
+        boolean right = false;
+
+        //Check up 
+        if(isValidCell(board,row-1,col) && board[row-1][col] == ch){
+            char c = board[row-1][col];
+            board[row-1][col] = '#';
+            up = checkExist(board,word,row-1,col,index+1);
+            board[row-1][col] = c;
+        }
+        //Check left
+        if(isValidCell(board,row,col-1) && board[row][col-1] == ch){
+            char c = board[row][col-1];
+            board[row][col-1] = '#';
+            left = checkExist(board,word,row,col-1,index+1);
+            board[row][col-1] = c;
+        }
+        //Check down 
+        if(isValidCell(board,row+1,col) && board[row+1][col] == ch){
+            char c = board[row+1][col];
+            board[row+1][col] = '#';
+            down = checkExist(board,word,row+1,col,index+1);
+            board[row+1][col] = c;
+        }
+        //Check right 
+        if(isValidCell(board,row,col+1) && board[row][col+1] == ch){
+            char c = board[row][col+1];
+            board[row][col+1] = '#';
+            right = checkExist(board,word,row,col+1,index+1);
+            board[row][col+1] = c;
         }
 
-        //Avoid reusing a character again
-        char c = board[i][j];
-        board[i][j] = '!';
-
-        boolean top = findIfExist(idx+1,i-1,j,board,word);
-        boolean bottom = findIfExist(idx+1,i+1,j,board,word);
-        boolean left = findIfExist(idx+1,i,j-1,board,word);
-        boolean right = findIfExist(idx+1,i,j+1,board,word);
-
-        board[i][j] = c;
-
-        return top || bottom || left || right;
-    }
-    public boolean exist(char[][] board, String word) {
-
-        if(word.length() > board.length*board[0].length){
-            return false;
-        }
-
-        int[] boardFreq = new int[128];
-        int[] wordFreq = new int[128];
-
-        for(char[] row : board){
-            for(char c : row){
-                boardFreq[c]++;
-            }
-        }
-
-        for(char c: word.toCharArray()){
-            wordFreq[c]++;
-            if(wordFreq[c] > boardFreq[c]){
-                return false;
-            }
-        }
-
-        for(int i=0;i<board.length; i++){
-            for(int j=0; j<board[0].length; j++){
-
-                if(board[i][j] == word.charAt(0)){
-                    if(findIfExist(0,i,j,board,word))
-                        return true;
-                }
-
-            }
-        }
-
-        return false;
+        return up||left||down||right;
     }
 }
